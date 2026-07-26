@@ -1,26 +1,22 @@
-# 会議室予約システム
+# Meeting Room System
 
-## 概要
-ユーザーが会議室の空き状況を確認し，予約できるwebアプリ
-
-## 主な機能
-- ユーザー登録
-- ログイン・ログアウト
-- 会議室一覧
-- 会議室予約
-- 予約重複防止
-- 自分の予約一覧
-- 予約キャンセル
+会議室の予約、重複防止、予約管理を行うWebアプリ。
 
 ## 技術構成
+
 - React
 - TypeScript
+- Vite
 - Node.js
 - Express
 - PostgreSQL
 - Prisma
 
-## 予約ルール
-- 予約時間は最大１時間
-- 過去の時間は予約不可
-- 同じ会議室の予約重複は禁止
+## 起動方法
+
+### Backend
+
+```powershell
+cd backend
+npm install
+npm run dev
